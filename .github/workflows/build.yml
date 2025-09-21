@@ -126,6 +126,7 @@ jobs:
           extra-args: |
             --build-arg=BASE_TAG=${{ steps.gather-base-tag.outputs.BASE_TAG }}
             --build-arg=CONFIG=${{ matrix.environment }}
+            --build-arg=ROOT=core
           labels: ${{ steps.define-image-metadata.outputs.labels }}
           oci: false
 
