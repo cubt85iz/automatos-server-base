@@ -1,5 +1,5 @@
 # Variables
-config-file := ".config/pow"
+config-file := ".config/base"
 
 # Builds the image for the repository.
 [linux]
